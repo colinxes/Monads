@@ -1,9 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>enable</Nullable>
+
+        <IsPackable>true</IsPackable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Monads.Result</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Monads</Authors>
+        <Description>Result monad implementation with functional combinators.</Description>
+        <PackageTags>monad;result;functional;csharp</PackageTags>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
 </Project>
